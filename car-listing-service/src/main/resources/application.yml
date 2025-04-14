@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: car-listing-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/DDD_SERVICES
+    username: root
+    password: Vyom@8966
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
