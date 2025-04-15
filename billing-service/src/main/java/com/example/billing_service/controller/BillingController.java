@@ -59,7 +59,7 @@ public class BillingController {
         return ResponseEntity.ok(savedInvoice);
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public List<Bill> getAll() {
         return repository.findAll();
     }
