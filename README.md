@@ -1,11 +1,8 @@
-Sure! Here's a clean, concise, and professional `README.md` file, focused only on practical setup and execution steps for your **DDD Microservices** project:
 
----
 
-```markdown
-# DDD Microservices with Spring Boot
+# Car Sales Management System
 
-This project demonstrates a microservices architecture using **Domain-Driven Design (DDD)** principles with **Spring Boot**, **Spring Cloud**, and **MySQL**. It includes service discovery using **Eureka**.
+This project demonstrates a car selling mgmt. system microservice architecture using **Domain-Driven Design (DDD)** principles with **Spring Boot**, **Spring Cloud**, and **MySQL**. It includes service discovery using **Eureka**.
 
 ## Dependencies Used
 
@@ -31,6 +28,7 @@ This project demonstrates a microservices architecture using **Domain-Driven Des
 ## Setting Up the Project
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/Vilsium/DDD--in-Real-life-Microservices.git
 cd DDD--in-Real-life-Microservices
@@ -103,12 +101,3 @@ eureka:
 - Use different ports for each microservice to avoid conflicts.
 
 ---
-
-## License
-
-MIT License
-```
-
----
-
-Let me know if you'd like to include curl test examples, Postman collection links, or Docker support.
